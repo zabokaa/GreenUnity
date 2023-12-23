@@ -12,14 +12,27 @@ p {
     font-family: 'Mulish', sans-serif;
 }
 
+header {
+    background-color: lavender;
+    /* be visible through scrolling down */
+    position: fixed;
+    z-index: 99;
+    width: 100%;
+}
+
 #logo {
     font-family: 'Sacramento', serif;
     font-size: xxx-large;
     color: green;
-    background-color: lavender;
+
     padding-left: 10px;
 }
 
 header a {
     text-decoration: none;
+}
+
+main {
+    /* main section is visible */
+    padding-top: 72px;
 }
