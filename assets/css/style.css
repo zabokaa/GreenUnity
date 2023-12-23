@@ -52,14 +52,10 @@ footer {
     justify-content: space-evenly;
 }
 #social-networks {
-
     text-align: center;
-        padding: 20px 0;
-        display: flex;
-   
-        justify-content: space-between;
+    display: flex;
     list-style-type: none;
-
+    gap: 30px;
 }
 
 #social-networks i {
