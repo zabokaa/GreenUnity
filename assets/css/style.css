@@ -65,6 +65,8 @@ nav {
     left: 0;
     box-shadow: 0 2px 2px #31004a;
     padding-top: 1em;
+    /* indented nav items */
+    padding-left: 2em;
     /* nav bar items hidden before user click */
     display: none;
     top: 100%;
@@ -103,10 +105,11 @@ main {
     font-size: 140%;
     position: absolute;
     bottom: 30px;
-    width: 80%;
-    min-height: 200px;
-    padding-top: 40px;
-    padding-left: 10px;
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    padding-top: 110px;
+    padding-left: 40px;
 }
 
 #hero-text > h2 { 
@@ -138,7 +141,7 @@ footer {
 #social-networks i {
     font-size: 160%;
     padding: 5%;
-    color: darkgreen;
+    color:green;
 }
 
 
