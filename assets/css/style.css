@@ -129,7 +129,6 @@ main {
     height: 650px;
     width: 100%;
     background: url(../img/frauen-harken.jpg) no-repeat center center/cover;
-    /* opacity: .6; */
     /* fallback color if img not loading */
     background-color: lavender;
     position: relative;
@@ -141,9 +140,36 @@ main {
     padding: 20px;
 }
 
+.text-input {
+    color: #31004a;
+    border: 2px dotted green;
+    border-radius: 8px;
+    height: 25px;
+    padding: 0 5px;
+    margin-top: 5px;
+    margin-bottom: 20px;
+    width: 100%;
+}
+
 input[type='checkbox'] {
     accent-color: green;
 }
+
+.checkbox-buttons {
+    font-size: 120%;
+}
+
+.event-button {
+    border-radius: 12px;
+    background-color: green;
+    color: lavender;
+    border: 2px solid #31004a;
+    font-family: 'Sacramento', serif;
+    font-size: 150%;
+    margin-top: 20px;
+    padding: 14px 40px;
+}
+
 
 /* FOOTER */
 footer {
