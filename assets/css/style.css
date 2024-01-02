@@ -123,6 +123,21 @@ main {
     font-family: 'Sacramento', serif;
 }
 
+/* INVOLVED page */
+
+#sign-up {
+    height: 650px;
+    width: 100%;
+    background: url(../img/frauen-harken.jpg) no-repeat center center/cover;
+    opacity: .6;
+    /* fallback color if img not loading */
+    background-color: lavender;
+    position: relative;
+}
+
+input[type='checkbox'] {
+    accent-color: green;
+}
 
 /* FOOTER */
 footer {
