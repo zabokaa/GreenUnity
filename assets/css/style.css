@@ -129,10 +129,16 @@ main {
     height: 650px;
     width: 100%;
     background: url(../img/frauen-harken.jpg) no-repeat center center/cover;
-    opacity: .6;
+    /* opacity: .6; */
     /* fallback color if img not loading */
     background-color: lavender;
     position: relative;
+}
+
+#signup-form {
+    color: #31004a;
+    background-color: rgba(230, 230, 250, .6);
+    padding: 20px;
 }
 
 input[type='checkbox'] {
