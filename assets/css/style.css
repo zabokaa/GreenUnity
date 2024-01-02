@@ -93,9 +93,11 @@ main {
 }
 
 #hero {
-    height: 600px;
+    height: 700px;
     width: 100%;
-    background: url(assets/img/trieb_in_hand.jpg) no-repeat center center/cover;
+    background: url(../img/trieb_in_hand.jpg) no-repeat center center/cover;
+    /* fallback color if img not loading */
+    background-color: green;
     /* for syling cover text position we need: */
     position: relative;
 }
