@@ -83,8 +83,39 @@ nav {
     font-size: 2rem;
 }
 
+/* HERO SECTION */
 main {
     flex: 1 0 auto;
+    /* main starting below header */
+    margin-top: 79px;
+}
+
+#hero {
+    height: 600px;
+    width: 100%;
+    background: url(assets/img/trieb_in_hand.jpg) no-repeat center center/cover;
+    /* for syling cover text position we need: */
+    position: relative;
+}
+
+#hero-text {
+    background-color: rgba(230, 230, 250, .6);
+    font-size: 140%;
+    position: absolute;
+    bottom: 30px;
+    width: 80%;
+    min-height: 200px;
+    padding-top: 40px;
+    padding-left: 10px;
+}
+
+#hero-text > h2 { 
+    color: #31004a;
+}
+
+#hero-text > h3  {
+    color: darkgreen;
+    font-family: 'Sacramento', serif;
 }
 
 
