@@ -151,12 +151,17 @@ main {
     width: 100%;
 }
 
+#add_info {
+    height: 120px;
+}
+
 input[type='checkbox'] {
     accent-color: green;
 }
 
 .checkbox-buttons {
     font-size: 120%;
+
 }
 
 .event-button {
