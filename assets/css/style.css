@@ -2,10 +2,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Mulish:ital,wght@0,200;0,300;0,400;0,500;0,700;1,200;1,300;1,400&family=Oswald:wght@200;300;400;500;600;700&family=Sacramento&display=swap');
 
 :root {
-    prim-color: lavender;
-    sec-color: green;
-    sec-dark-color: darkgreen;
-    text-color: #31004a; 
+    --prim-color: lavender;
+    --sec-color: green;
+    --sec-dark-color: darkgreen;
+    --text-color: #31004a; 
 }
 /* deleting some default css properties */
 * {
@@ -25,7 +25,7 @@ body {
 
 /* HEADER u NAVBAR */
 header {
-    background-color: var(--prim-color)
+    background-color: var(--prim-color);
     /* be visible through scrolling down */
     position: fixed;
     z-index: 99;
@@ -171,6 +171,7 @@ main {
 
 #add_info {
     height: 120px;
+    background-color: var(--prim-color);
 }
 
 input[type='checkbox'] {
@@ -221,4 +222,39 @@ footer {
     color: var(--sec-color);
 }
 
+/* MEDIA QUERIES */
+/* media-query for tablets  */
+@media screen and (min-width: 768px) {
+    /* header */
+    nav {
+        display: block;
+        position: relative;
+        box-shadow: none;
+        width: fit-content;
+        padding-right: 1rem;
+    }
+    #menu {
+        display: flex;
+    }
+    #menu > li {
+        padding-left: 1rem;
+    }
+    .nav-toggle-label {
+        display: none;
+    }
+    #logo {
+        font-size: 280%;
+        line-height: 75px;
+        margin: 0 0.5rem;
+    }
+    main {
+        margin-top: 79px;
+    }
+}
 
+/* media query for laptops */
+@media screen and (min-width: 992px) {
+    #menu a:hover {
+        border-bottom: 1px solid var(--text-color);
+    }
+}
