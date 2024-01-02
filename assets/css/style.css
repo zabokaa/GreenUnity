@@ -164,10 +164,15 @@ input[type='checkbox'] {
     background-color: green;
     color: lavender;
     border: 2px solid #31004a;
+    cursor: pointer;
     font-family: 'Sacramento', serif;
     font-size: 150%;
     margin-top: 20px;
     padding: 14px 40px;
+}
+
+.event-button:hover {
+    opacity: .8;
 }
 
 
