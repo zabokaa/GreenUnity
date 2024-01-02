@@ -17,6 +17,7 @@ body {
     font-family: 'Mulish', sans-serif;
 }
 
+/* HEADER u NAVBAR */
 header {
     background-color: lavender;
     /* be visible through scrolling down */
@@ -24,25 +25,70 @@ header {
     z-index: 99;
     width: 100%;
     display: flex;
+    justify-content: space-between;
+    align-items: baseline;
 }
 
 #logo {
     font-family: 'Sacramento', serif;
     font-size: xxx-large;
     color: green;
-
     padding-left: 10px;
 }
 
 header a {
     text-decoration: none;
+    color: inherit;
+}
+
+#menu {
+    letter-spacing: 4px;
+    list-style-type: none;
+    font-size: 110%;
+}
+
+/* list items inside the menu */
+#menu > li {
+    margin-bottom: 1em;
+}
+
+.active {
+    border-bottom: 1px solid green;
+}
+
+/* nav bar burger menu */
+nav {
+    position: absolute;
+    background-color: lavender;
+    width: 100%;
+    left: 0;
+    box-shadow: 0 2px 2px #31004a;
+    padding-top: 1em;
+    padding-left: 1rem;
+    /* nav bar items hidden before user click */
+    display: none;
+    top: 100%;
+}
+
+/* nav toggle */
+#nav-toggle:checked~nav {
+    display: block;
+}
+
+#nav-toggle {
+    display: none;
+}
+
+.nav-toggle-label {
+    font-size: 2rem;
 }
 
 main {
     flex: 1 0 auto;
 }
 
-/* footer */
+
+/* FOOTER */
 footer {
     background-color: lavender;
     text-align: center;
@@ -63,3 +109,5 @@ footer {
     padding: 5%;
     color: darkgreen;
 }
+
+
