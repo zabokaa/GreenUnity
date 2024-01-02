@@ -27,6 +27,7 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: baseline;
+    padding-right: 17px;
 }
 
 #logo {
@@ -42,7 +43,7 @@ header a {
 }
 
 #menu {
-    letter-spacing: 4px;
+    letter-spacing: 3px;
     list-style-type: none;
     font-size: 110%;
 }
@@ -64,7 +65,6 @@ nav {
     left: 0;
     box-shadow: 0 2px 2px #31004a;
     padding-top: 1em;
-    padding-left: 1rem;
     /* nav bar items hidden before user click */
     display: none;
     top: 100%;
