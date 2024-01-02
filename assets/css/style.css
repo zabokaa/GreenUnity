@@ -123,6 +123,18 @@ main {
     font-family: 'Sacramento', serif;
 }
 
+/* EVENTS page */
+#event-box {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#event-box div {
+    padding: 10px;
+    text-align: center;
+    border: 3px solid green;
+}
+
 /* INVOLVED page */
 
 #sign-up {
