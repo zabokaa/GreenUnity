@@ -48,6 +48,10 @@ header a {
     color: inherit;
 }
 
+header a:active {
+    text-decoration: underline;
+}
+
 #menu {
     letter-spacing: 3px;
     list-style-type: none;
