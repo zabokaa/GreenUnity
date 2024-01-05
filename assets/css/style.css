@@ -136,7 +136,18 @@ main {
     font-family: 'Sacramento', serif;
 }
 
-/* EVENTS page */
+/* ABOUT-US section */
+#about-us > h3 {
+    color: var(--sec-dark-color);
+    font-family: 'Sacramento', serif;
+    font-size: 160%;
+}
+
+#about-us > h4 {
+    bottom: 42px;
+}
+
+/* EVENTS section */
 #event-box {
     display: flex;
     flex-wrap: wrap;
@@ -148,7 +159,7 @@ main {
     border: 3px solid var(--sec-color);
 }
 
-/* INVOLVED page */
+/* INVOLVED section */
 
 #sign-up {
     height: 650px;
