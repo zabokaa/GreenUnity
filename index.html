@@ -29,10 +29,10 @@
                     <a href="index.html" class="active">About Us</a>
                 </li> 
                 <li>
-                    <a href="events.html">Events</a>
+                    <a href="#upcoming-events">Events</a>
                 </li>
                 <li>
-                    <a href="involved.html">Getting Involved!</a>
+                    <a href="#sign-up">Getting Involved!</a>
                 </li>
             </ul>
         </nav>
@@ -45,6 +45,86 @@
                 <h3>Our Community Garden</h3>
             </div>
         </section>
+        <!-- about us -->
+        <!-- upcoming events -->
+        <section id="upcoming-events">
+            <h2>All Our Events in January 2024</h2>
+            <div id="event-box">
+                <div id="info-box">
+                    <h3>Info Meeting</h3>
+                    <p>Want to take a look around first? <br>Then come to our plenum!</p>
+                    <p class="fa fa-calendar-o"> every TUE</p>
+                    <p class="fa fa-clock-o"> 7:30 PM</p>
+                </div>
+                <div id="market-box"> 
+                    <h3>Seeds Market</h3>
+                    <p>Feel free to bring your own seeds.<br> Let's swap!</p>
+                    <p class="fa fa-calendar-o"> WED, 17th</p>
+                    <p class="fa fa-clock-o"> 6:00 PM</p>
+                </div>
+                <div id="build-box">
+                    <h3>Raised-Bed</h3>
+                    <p>We build new raised-beds together! <br>Don't panic, no previous knowledge is required :)</p>
+                    <p class="fa fa-calendar-o"> SAT, 10th</p>
+                    <p class="fa fa-clock-o"> 9:00 AM</p>
+                </div>
+                <div id="course-box">
+                    <h3>Permaculture Course</h3>
+                    <p>2-day permaculture course. <br>Suitable for beginners and people with experience.</p>
+                    <p class="fa fa-calendar-o"> SAT+SUN, 27th-28th</p>
+                    <p class="fa fa-clock-o"> 10:00 AM</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- getting involved section -->
+        <section id="sign-up">
+            <form id="signup-form" action="https://formdump.codeinstitute.net" method="post">
+                <h2><i class="fa fa-leaf"></i> Let's meet up!</h2>
+                <br>
+                <label for="first_name">First Name:</label>
+                <input type="text" class="text-input" id="first_name" name="first_name" required>
+                <br>
+                <label for="last_name">Last Name:</label>
+                <input type="text" class="text-input" id="last_name" name="last_name" required>
+                <br>
+                <label for="email_address">Email Address:</label>
+                <input type="email" class="text-input" id="email_address" name="email_address" required>
+        
+                <div class="checkbox-buttons">
+                    <div>
+                        <label for="info">Info Meeting</label>
+                        <input type="checkbox" id="road" name="selected-event" value="info" checked>
+        
+                    </div>
+                    <div>
+                        <label for="market">Seeds Market</label>
+                        <input type="checkbox" id="market" name="selected-event" value="market">
+        
+                    </div>
+                    <div>
+                        <label for="build">Building A Raised-Bed</label>
+                        <input type="checkbox" id="build" name="selected-event" value="build">
+                    </div>
+                    <div>
+                        <label for="course">Permaculture Course</label>
+                        <input type="checkbox" id="course" name="selected-event" value="course">
+                    </div>
+                </div>
+                <br>
+                <label for="add_info">Anything else you want us to know:</label>
+                <input 
+                    type="text" 
+                    class="text-input" 
+                    id="add_info" 
+                    name="add_info"
+                    size="80" 
+                    placeholder="e.g. any kind of assistance, anything else we should know about you, or any question you have regarding our events">
+                <br>
+                <button type="submit" class="event-button">Take part !</button>
+            </form>
+        </section>
+
     </main>
     
     <footer>
