@@ -149,6 +149,7 @@ main {
 
 table, td {
     border:1px solid var(--sec-color);
+    background-color: var(--prim-color);
 }
 
 td {
