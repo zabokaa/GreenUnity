@@ -147,6 +147,14 @@ main {
     bottom: 42px;
 }
 
+table, td {
+    border:1px solid var(--sec-color);
+}
+
+td {
+    padding: 15px;
+}
+
 /* EVENTS section */
 #event-box {
     display: flex;
