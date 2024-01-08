@@ -246,6 +246,7 @@ input[type='checkbox'] {
 .going-up {
     text-align: center;
     font-size: xx-large;
+    padding-top: 14px;
 }
 
 /* FOOTER */
@@ -327,6 +328,19 @@ footer {
         text-align: end;
         align-self: flex-end;
     }
+    #opening-hours h3 {
+        text-align: center;
+        padding-bottom: 15px;
+    }
+
+    #opening-hours table {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border: none;
+        background-color: white;
+    }
+
     /* sign-up */
    
     #signup-form {
@@ -366,24 +380,7 @@ footer {
         text-align:start;
     }
 
-    #opening-hours h3 {
-        text-align: center;
-        padding-bottom: 15px;
-    }
-
-    #opening-hours table {
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        border: none;
-        background-color: white;
-    }
-
-/* 
-    table, td {
-        border:1px solid var(--sec-color);
-        background-color: var(--prim-color);
-    } */
+ 
     .event-button {
         margin-top: 20px;
     }  
