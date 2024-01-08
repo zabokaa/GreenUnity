@@ -248,12 +248,14 @@ footer {
     gap: 30px;
 }
 
-#social-networks i {
+.redes-sociales  i {
     font-size: 160%;
     padding: 5%;
     color: var(--sec-color);
+    text-decoration: none;
 }
 
+/* ///////////////////////////////////////////////// */
 /* MEDIA QUERIES */
 /* media-query for tablets  */
 @media screen and (min-width: 768px) {
@@ -297,7 +299,7 @@ footer {
         padding-left: 40px;
     }
 
-    /* FOOTER */
+    /* footer */
     footer {
         background-color: var(--prim-color);
         text-align: center;
