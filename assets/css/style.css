@@ -100,9 +100,8 @@ nav {
 /* HERO SECTION */
 main {
     flex: 1 0 auto;
-    /* main starting below header */
     margin-top: 69px;
-    /* HERE CHECK AGAIN */
+    margin-bottom: 40px;
 }
 
 #hero {
