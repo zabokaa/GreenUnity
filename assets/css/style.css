@@ -136,9 +136,9 @@ main {
 }
 
 /* ABOUT-US section */
-#about-us {
-    padding-left: 7px;
-    padding-right: 3px;
+#about-us, #upcoming-events {
+    padding: 0 7px;
+   
 }
 #about-us > h3 {
     color: var(--sec-dark-color);
