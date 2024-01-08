@@ -345,6 +345,10 @@ footer {
         background-color: white;
     }
 
+    /* events */
+    #event-box {
+        align-content: stretch;
+    }
     /* sign-up */
    
     #signup-form {
