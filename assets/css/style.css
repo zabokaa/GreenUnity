@@ -144,6 +144,11 @@ main {
 
 #about-us > h4 {
     bottom: 42px;
+    text-shadow: 4px 4px var(--prim-color);
+}
+
+#about-us p {
+    padding-bottom: 21px;
 }
 
 table, td {
