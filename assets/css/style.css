@@ -207,7 +207,6 @@ input[type='checkbox'] {
 
 .checkbox-buttons {
     font-size: 120%;
-
 }
 
 .event-button {
@@ -218,7 +217,6 @@ input[type='checkbox'] {
     cursor: pointer;
     font-family: 'Sacramento', serif;
     font-size: 150%;
-    margin-top: 20px;
     padding: 14px 40px;
 }
 
@@ -305,25 +303,8 @@ footer {
 
     /* footer */
     footer {
-        background-color: var(--prim-color);
-        text-align: center;
-        padding: 20px 0;
-        display: flex;
         flex-direction: row;
         justify-content: space-evenly;
-    }
-    
-    .social-networks {
-        list-style-type: none;
-        text-align: center;
-        display: flex;
-        list-style-type: none;
-        gap: 30px;
-    }
-    .social-networks  i {
-        font-size: 160%;
-        padding: 5%;
-        color: var(--sec-dark-color);
     }
 }
 
@@ -331,27 +312,8 @@ footer {
 @media screen and (min-width: 992px) {
     #menu a:hover {
         border-bottom: 1px solid var(--text-color);
-    }
-    /* footer */
-    footer {
-    background-color: var(--prim-color);
-    text-align: center;
-    padding: 20px 0;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
-}
-
-.social-networks {
-    list-style-type: none;
-    text-align: center;
-    display: flex;
-    list-style-type: none;
-    gap: 30px;
-}
-.social-networks  i {
-    font-size: 160%;
-    padding: 5%;
-    color: var(--sec-dark-color);
-}
+    } 
+    .event-button {
+        margin-top: 20px;
+    }  
 }
