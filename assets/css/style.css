@@ -227,7 +227,7 @@ input[type='checkbox'] {
 }
 
 /* going-up btn */
-#going-up {
+.going-up {
     text-align: center;
     font-size: xx-large;
 }
