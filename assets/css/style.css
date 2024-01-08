@@ -51,7 +51,6 @@ header a {
 }
 
 header a:active {
-    text-decoration: underline;
     color: var(--sec-color);
 }
 
