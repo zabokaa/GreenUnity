@@ -155,6 +155,10 @@ main {
     padding-bottom: 21px;
 }
 
+hr {
+    border: 2px solid var(--prim-color);
+}
+
 table, td {
     border:1px solid var(--sec-color);
     background-color: var(--prim-color);
