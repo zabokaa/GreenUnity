@@ -136,6 +136,10 @@ main {
 }
 
 /* ABOUT-US section */
+#about-us {
+    padding-left: 7px;
+    padding-right: 3px;
+}
 #about-us > h3 {
     color: var(--sec-dark-color);
     font-family: 'Sacramento', serif;
