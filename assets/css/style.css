@@ -101,7 +101,7 @@ nav {
 main {
     flex: 1 0 auto;
     margin-top: 69px;
-    margin-bottom: 40px;
+    margin-bottom: 55px;
 }
 
 #hero {
@@ -340,6 +340,10 @@ footer {
     #menu a:hover {
         border-bottom: 1px solid var(--text-color);
     } 
+    main {
+        margin-top: 54px;
+        margin-bottom: 60px;
+    }
     .event-button {
         margin-top: 20px;
     }  
