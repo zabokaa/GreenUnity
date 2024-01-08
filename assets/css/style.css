@@ -366,6 +366,15 @@ footer {
         text-align:start;
     }
 
+    #opening-hours h3 {
+        text-align: center;
+    }
+
+    #opening-hours table {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
     .event-button {
         margin-top: 20px;
     }  
