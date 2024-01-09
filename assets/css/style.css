@@ -453,3 +453,15 @@ footer {
         right: 10%;
     }
 }
+
+/* media query for LARGE SCREENS */
+@media screen and (min-width: 1200px) {
+    #hero-text {
+        font-size: 180%;
+        width: 400px;
+        height: 400px;
+        padding-top: 140px;
+        padding-left: 10px;
+    }
+
+}
