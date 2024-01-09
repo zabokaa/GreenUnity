@@ -1,6 +1,6 @@
 # :purple_circle: *GreenUnity* :purple_circle:
 
-![mockup landingpage](./img//readme-img/mockup_home.png)
+![mockup landingpage](./img//readme-img/mockup_home.png?raw=true)
 
 ## table of contents
 
