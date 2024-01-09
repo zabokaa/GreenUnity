@@ -1,15 +1,14 @@
-# :purple_circle: *GreenUnity* :purple_circle
+# :purple_circle: *GreenUnity* :purple_circle:
 
 ## table of contents
 
-- [:purple\_circle: *GreenUnity* :purple\_circle](#purple_circle-greenunity-purple_circle)
-  - [table of contents](#table-of-contents)
-  - [objective](#objective)
-  - [key features](#key-features)
-  - [user stories](#user-stories)
-  - [technologies](#technologies)
-  - [project status](#project-status)
-  - [acknowledgements](#acknowledgements)
+- [table of contents](#table-of-contents)
+- [objective](#objective)
+- [key features](#key-features)
+- [user stories](#user-stories)
+- [technologies](#technologies)
+- [project status](#project-status)
+- [acknowledgements](#acknowledgements)
 
 ## objective
 
