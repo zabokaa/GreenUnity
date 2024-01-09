@@ -1,5 +1,7 @@
 # :purple_circle: *GreenUnity* :purple_circle:
 
+![mockup landingpage](./img//readme-img/mockup_home.png)
+
 ## table of contents
 
 - [objective](#objective)
