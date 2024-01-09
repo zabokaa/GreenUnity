@@ -109,7 +109,7 @@ main {
 #hero {
     height: 450px;
     width: 100%;
-    background: url(../img/trieb_in_hand.jpg) no-repeat center/cover;
+    background: url(../img/trieb_in_hand.webp) no-repeat center/cover;
     /* fallback color if img not loading */
     background-color: var(--sec-color);
     position: relative;
@@ -212,7 +212,7 @@ td {
 #sign-up {
     height: 730px;
     width: 100%;
-    background: url(../img/frauen-harken.jpg) no-repeat center center/cover;
+    background: url(../img/frauen-harken.webp) no-repeat center center/cover;
     /* fallback color if img not loading */
     background-color: var(--prim-color);
     position: relative;
