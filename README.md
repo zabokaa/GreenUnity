@@ -5,6 +5,7 @@
 - [objective](#objective)
 - [key features](#key-features)
 - [user stories](#user-stories)
+- [testing] (#testing)
 - [technologies](#technologies)
 - [project status](#project-status)
 - [acknowledgements](#acknowledgements)
@@ -24,6 +25,22 @@ to build a responsive 1-page web app for a Community Garden
 - allows users to sign up for an event
 
 ## user stories
+
+## testing
+
+### manual
+
+- page is responsive (menu, images, style of each section) for tablet, laptop, and wide screens
+- menu working, going up arrors after each section working as well
+- all links working and opening in a new tab
+- all images have alt text or fallback background color
+- contrast ratio (WCAG AAA) passed
+
+### official validators
+
+- CSS validator: no errors
+- HTML validator: 1st errors bc img had size attribute without sourceset atrribute --> fixed
+- lighthouse: increased from 63% to 99% by transforming and resizing all my images (using squoosh.app)
 
 ## technologies
 
