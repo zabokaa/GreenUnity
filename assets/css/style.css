@@ -177,6 +177,8 @@ td {
 .event-box {
     display: flex;
     flex-wrap: wrap;
+    justify-content: space-around; 
+    align-items: center;
 }
 
 .event-box img {
@@ -195,6 +197,9 @@ td {
     text-align: center;
     border: 3px solid var(--sec-color);
     margin-bottom: 7px;
+    flex: 0 0 400px;
+    margin: 10px; 
+    max-width: 100%; 
 }
 
 #market-box,
@@ -381,6 +386,10 @@ footer {
         align-content: stretch;
     }
 
+    #upcoming-events h2 {
+        text-align: center;
+    }
+
     .event-box h3 {
         font-size: 220%;
     }
@@ -424,6 +433,7 @@ footer {
     #about-us h3 {
         font-size: 220%;
     }
+
     .vision-flex {
         display: flex;
     }
@@ -449,11 +459,13 @@ footer {
     }
 
     #build-box {
-    background-color: var(--prim-color);
-}
+        background-color: var(--prim-color);
+    }
+
     #course-box {
         background-color: #ffffff;
     }
+
     .event-button {
         margin-top: 20px;
     }
