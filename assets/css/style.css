@@ -183,6 +183,7 @@ td {
     width: 67%;
     height: auto;
     margin: 0 auto;
+    padding-bottom: 7px;
 }
 
 .hidden-on-mobile {
