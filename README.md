@@ -35,12 +35,14 @@ to build a responsive 1-page web app for a Community Garden
 - all links working and opening in a new tab
 - all images have alt text or fallback background color
 - contrast ratio (WCAG AAA) passed
+- aria-labels are there
 
 ### official validators
 
 - CSS validator: no errors
 - HTML validator: 1st errors bc img had size attribute without sourceset atrribute --> fixed
 - lighthouse: increased from 63% to 99% by transforming and resizing all my images (using squoosh.app)
+- WAVE: no errors
 
 ## technologies
 
