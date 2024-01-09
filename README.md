@@ -2,7 +2,6 @@
 
 ## table of contents
 
-- [table of contents](#table-of-contents)
 - [objective](#objective)
 - [key features](#key-features)
 - [user stories](#user-stories)
@@ -11,7 +10,7 @@
 - [acknowledgements](#acknowledgements)
 
 ## objective
-
+to build a responsive 1-page web app for a Community Garden 
 ## key features
 
 ## user stories
