@@ -15,10 +15,12 @@ to build a responsive 1-page web app for a Community Garden
 
 ## key features
 
-*home section*
+### home section
 
 - ability to navigate to all different sections
-*getting involved section*
+
+### getting involved section
+
 - allows users to sign up for an event
 
 ## user stories
@@ -29,8 +31,10 @@ HTML | CSS
 
 ## project status
 
-project is: in process
+project is: finished
 
 ## acknowledgements
 
 this project was based on full-stack course @ Code Institute
+
+- images from pexels.com and wikimedia, all commons
