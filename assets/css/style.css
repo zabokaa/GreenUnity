@@ -404,7 +404,7 @@ footer {
     }
 }
 
-/* media query for laptops */
+/* media query for LAPTOPS */
 @media screen and (min-width: 992px) {
     #menu a:hover {
         border-bottom: 1px solid var(--text-color);
@@ -434,6 +434,14 @@ footer {
         text-align: start;
     }
 
+    .event-box div {
+        flex: 0 0 48%;
+        margin: 7px;
+    }
+
+    #upcoming-events h2 {
+        text-align: center;
+    }
 
     .event-button {
         margin-top: 20px;
