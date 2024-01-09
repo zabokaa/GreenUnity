@@ -447,6 +447,12 @@ footer {
         text-align: center;
     }
 
+    #build-box {
+    background-color: var(--prim-color);
+}
+    #course-box {
+        background-color: #ffffff;
+    }
     .event-button {
         margin-top: 20px;
     }
