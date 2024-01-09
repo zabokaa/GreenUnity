@@ -10,12 +10,17 @@
 - [acknowledgements](#acknowledgements)
 
 ## objective
-to build a responsive 1-page web app for a Community Garden 
+
+to build a responsive 1-page web app for a Community Garden
+
 ## key features
+
 *home section*
+
 - ability to navigate to all different sections
 *getting involved section*
 - allows users to sign up for an event
+
 ## user stories
 
 ## technologies
