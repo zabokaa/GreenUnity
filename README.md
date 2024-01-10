@@ -77,10 +77,10 @@
 
 - Official validators
 
-  - [W3C HTML Validator](./assets/img/readme-img/html validation.png): no errors [W3C Validator]()
-  - [W3C CSS Validator](./assets/img/readme-img/CSS validation.png)  First I had an error because my img tags had size attribute without sourceset atrribute --> fixed: nor errors 
+  - [W3C HTML Validator](./assets/img/readme-img/html_validation.png): no errors 
+  - [W3C CSS Validator](./assets/img/readme-img/CSS_validation.png)  First I had an error because my img tags had size attribute without sourceset atrribute --> fixed: nor errors 
   - [Lighthouse Chrome DevTools](./assets/img/readme-img/lighthouse_afterResizingImg.png): values for accessibility / best practise / SEO all 100, increased performance value from 74 to 99 by transforming and resizing all my images 
-  - [WAVE](./assets/img/readme-img/wave_validation.png) no errors for accessibility and color contrast [WAVE Validator] 
+  - [WAVE](./assets/img/readme-img/wave_validation.png) no errors for accessibility and color contrast 
 
 ## Technologies
 
