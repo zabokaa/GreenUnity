@@ -7,7 +7,7 @@
 - [objective](#objective)
 - [key features](#key-features)
 - [user stories](#user-stories)
-- [testing] (#testing)
+- [testing](#testing)
 - [technologies](#technologies)
 - [project status](#project-status)
 - [acknowledgements](#acknowledgements)
@@ -18,9 +18,9 @@ to build a responsive 1-page web app for a Community Garden
 
 ## key features
 
-### home section
+- home section
 
-- ability to navigate to all different sections
+  - ability to navigate to all different sections
 
 ### getting involved section
 
@@ -30,16 +30,15 @@ to build a responsive 1-page web app for a Community Garden
 
 ## testing
 
-### manual
+*manual
 
 - page is responsive (menu, images, style of each section) for tablet, laptop, and wide screens
-- menu working, going up arrors after each section working as well
+- menu working, going up arrow after each section working as well
 - all links working and opening in a new tab
-- all images have alt text or fallback background color
+- all images have alt text or fallback background color and aria-labels are there
 - contrast ratio (WCAG AAA) passed
-- aria-labels are there
 
-### official validators
+*official validators
 
 - CSS validator: no errors
 - HTML validator: 1st errors bc img had size attribute without sourceset atrribute --> fixed
