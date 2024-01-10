@@ -68,7 +68,7 @@ header a:active {
     border-bottom: 1px solid var(--sec-color);
 }
 
-/* nav bar burger menu */
+/* nav bar */
 nav {
     position: absolute;
     background-color: lavender;
@@ -76,14 +76,15 @@ nav {
     left: 0;
     box-shadow: 0 2px 2px var(--text-color);
     padding-top: 1em;
-    /* indented nav items */
     padding-left: 2em;
-    /* nav bar items hidden before user click */
     display: none;
     top: 100%;
 }
 
-/* nav toggle */
+html {
+    scroll-padding-top: 80px;
+}
+
 #nav-toggle:checked~nav {
     display: block;
 }
@@ -174,7 +175,7 @@ td {
 .event-box {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-around; 
+    justify-content: space-around;
     align-items: center;
 }
 
@@ -195,8 +196,8 @@ td {
     border: 3px solid var(--sec-color);
     margin-bottom: 7px;
     flex: 0 0 400px;
-    margin: 10px; 
-    max-width: 100%; 
+    margin: 10px;
+    max-width: 100%;
 }
 
 #market-box,
