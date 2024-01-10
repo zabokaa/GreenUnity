@@ -33,7 +33,8 @@ Welcome to GreenUnity's homepage – the heart of our community garden. Discover
   - **Arrows for Scroll Navigation:** Arrows below each section enable users to quickly navigate to the top of the page.
  
 - Header
-![header](./assets/img/readme-img/header_img.png)
+
+  ![header](./assets/img/readme-img/header_img.png)
   - **Logo:** A plain logo that is fitting to the overall clean design of the page, that is functioning as navigating back to the home section. 
   - **Menu Navigation:** The page features an intuitive menu for easy navigation, allowing users to access different sections.
 
@@ -42,22 +43,26 @@ Welcome to GreenUnity's homepage – the heart of our community garden. Discover
   - **Image Display for Tablet and Laptop:** Events are showcased with pictures on tablet devices and arranged in two-per-row format for laptops.
 
 - About Us Section
+  
   ![aboutus](./assets/img/readme-img/about_img.png)
   - **Community Garden Development:** Users can find information about the development of the community garden -->  transparency and engagement.
   - **Vision and Mission:** A dedicated section outlines the vision and mission of the community, providing users with a deeper understanding of its purpose.
   - **Opening Hours:** Clear details about the operating hours are available for user convenience.
  
 - Events Section
+  
   ![events](./assets/img/readme-img/events_img.png)
   - **Monthly Events:** Users can easily access info about events scheduled for the current month.
   - **Additional Information:** Each event is displayed in a own box, featuring name of the event, a representative image (not for mobile size screens, because it would decrease the readability), a short description, date, and time.
 
 - Getting Involved Section
+  
   ![signup](./assets/img/readme-img/involved_img.png)
   - **Event Enrollment:** Users can enroll in one or more events by providing their names and email addresses.
   - **Additional Information:** Users have the option to include additional details, such as special assistance requirements --> better communication and event coordination.
 
 - Footer
+  
   ![footer](./assets/img/readme-img/footer_desk_img.png)
   - **Comprehensive Footer:** The footer contains essential information, including the address, a brief impressum, and links to social media.
   - **New Tab Links:** Social media links open in new tabs, ensuring users remain on my page.
