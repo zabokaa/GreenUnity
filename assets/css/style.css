@@ -427,7 +427,7 @@ footer p {
 
 /* media query for LAPTOPS */
 @media screen and (min-width: 992px) {
-    body {
+    p {
         font-size: 120%;
     }
     #menu a:hover {
@@ -446,6 +446,10 @@ footer p {
 
     #about-us h3 {
         font-size: 220%;
+    }
+
+    #opening-hours h3 {
+        font-size: 120%;
     }
 
     .vision-flex {
