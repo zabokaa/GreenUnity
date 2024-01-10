@@ -68,20 +68,20 @@ to build a responsive 1-page web app for a Community Garden
 
 ## testing
 
-*manual
+- manual
 
-- page is responsive (menu, images, style of each section) for tablet, laptop, and wide screens
-- menu working, going up arrow after each section working as well
-- all links working and opening in a new tab
-- all images have alt text or fallback background color and aria-labels are there
-- contrast ratio (WCAG AAA) passed
+  - page is responsive (menu, images, style of each section) for tablet, laptop, and wide screens
+  - menu working, going up arrow after each section working as well
+  - all links working and opening in a new tab
+  - all images have alt text or fallback background color and aria-labels are there
+  - contrast ratio (WCAG AAA) passed
 
-*official validators
+- official validators
 
-- CSS validator: no errors
-- HTML validator: 1st errors bc img had size attribute without sourceset atrribute --> fixed
-- lighthouse: increased from 63% to 99% by transforming and resizing all my images (using squoosh.app)
-- WAVE: no errors
+  - CSS validator: no errors
+  - HTML validator: 1st errors bc img had size attribute without sourceset atrribute --> fixed
+  - lighthouse: values for accessibility / best practise / SEO all 100, increased performance value from 74 to 99 by transforming and resizing all my images
+  - WAVE: no errors
 
 ## technologies
 
@@ -96,3 +96,5 @@ project is: finished
 this project was based on full-stack course @ Code Institute
 
 - images from pexels.com and wikimedia, all commons
+- images edited with squoosh.app
+  
