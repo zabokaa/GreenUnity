@@ -2,9 +2,10 @@
 
 ![mockup landingpage](./assets/img/readme-img/mockup_home.png?raw=true "image of mockup home screen for different devices")
 
-<a href="https://zabokaa.github.io/GreenUnity/" target="_blank">🌱 **deployed page** 🍃</a>
 
-## table of contents
+## 🌱 [Deployed Page] 🍃 (https://zabokaa.github.io/GreenUnity/)
+
+## Table of Contents
 
 - [UX Design](#ux-design)
 - [Key Features](#key-features)
@@ -77,10 +78,10 @@
 
 - Official validators
 
-  - CSS validator: no errors
-  - HTML validator: 1st errors bc img had size attribute without sourceset atrribute --> fixed
-  - Lighthouse: values for accessibility / best practise / SEO all 100, increased performance value from 74 to 99 by transforming and resizing all my images
-  - WAVE: no errors
+  - CSS validator: no errors [W3C Validator] (./assets/img/readme-img/html validation.png)
+  - HTML validator: First I had an error because my img tags had size attribute without sourceset atrribute --> fixed: nor errors [W#C CSS Validator] (./assets/img/readme-img/CSS validation.png)
+  - Lighthouse: values for accessibility / best practise / SEO all 100, increased performance value from 74 to 99 by transforming and resizing all my images [Lighthouse Chrome DevTools] (./assets/img/readme-img/lighthouse_afterResizingImg.png)
+  - WAVE: no errors for accessibility and color contrast [WAVE Validator] (./assets/img/readme-img/wave_validation.png)
 
 ## Technologies
 
