@@ -72,6 +72,9 @@ Welcome to GreenUnity's homepage – the heart of our community garden. Discover
     - Event-Boxes are in one column, as already mentioned without image, and with changing background color. 
     - Content of footer is centered in one column
     - The headings are on the left because it is clearer and analogous to the reading direction.
+  - **Differences for Tablet Screens:**
+    - The vision + mision part of the about us section is alternating left- and right-aligned
+    - Eventboxes are centered in one column, with images. 
 
 - Quick Navigation
   - **Arrows for Scroll Navigation:** Arrows below each section enable users to quickly navigate to the top of the page.
