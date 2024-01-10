@@ -2,8 +2,7 @@
 
 ![mockup landingpage](./assets/img/readme-img/mockup_home.png?raw=true "image of mockup home screen for different devices")
 
-
-## 🌱 [Deployed Page] 🍃 (https://zabokaa.github.io/GreenUnity/)
+## 🌱 [Deployed Page] 🍃 (<https://zabokaa.github.io/GreenUnity/>)
 
 ## Table of Contents
 
@@ -95,6 +94,6 @@ Project is: finished
 
 This project was based on full-stack course @ Code Institute.
 
-- Image of raised-bed from  wikimedia.com, all other images from pexels.com 
+- Image of raised-bed from  wikimedia.com, all other images from pexels.com
 - Images edited with squoosh.app
   
