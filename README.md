@@ -120,7 +120,9 @@ Welcome to GreenUnity's homepage – the heart of our community garden. Discover
   - My first concept was not having a 1-page site, but different html pages for each section. But since it is more common today, and users are more used to that, I changed that.
   - [Here](./assets/img/readme-img/Flowerbeds_wireframes_1.pdf) you can find my wireframes, designed with Balsamiq. (Pls note that I changed the name of the Community Garden from Flowerbeds to GreenUnity, because with GreenUnity both nature and community are associated.)
 - Surface
-  - 
+  - The hero image is a symbol for planting something with your own hand. 
+  - The primary colors are green and lavender. Green symbolizes plants and nature, and lavender has a strong connection to flowers and spring, and therefore to a transition. The text-color is a dark purple (related to lavender) and used to have a smoother contrast to white or lavender background than black.
+  - I chose italic as the second font because it looks more personal and handmade. It goes well with the planting and getting involved approach of the site. 
 
 
 ## Testing
