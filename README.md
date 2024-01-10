@@ -6,20 +6,20 @@
 
 ## table of contents
 
-- [objective](#objective)
-- [key features](#key-features)
-- [user stories](#user-stories)
-- [testing](#testing)
-- [technologies](#technologies)
-- [project status](#project-status)
-- [acknowledgements](#acknowledgements)
+- [UX Design](#ux-design)
+- [Key Features](#key-features)
+- [User Stories](#user-stories)
+- [Testing](#testing)
+- [Technologies](#technologies)
+- [Project Status](#project-status)
+- [Acknowledgements](#acknowledgements)
 
-## objective
+## UX Design
 
 - to build a responsive 1-page web app for a Community Garden
 - low-threshold access for users without social media accounts
 
-## key features
+## Key Features
 
 - Menu and Responsive Design
   - **Responsive Design:** The webpage follows a mobile-first approach, ensuring optimal user experience across various devices.
@@ -46,7 +46,7 @@
   - **Comprehensive Footer:** The footer contains essential information, including the address, a brief impressum, and links to social media.
   - **New Tab Links:** Social media links open in new tabs, ensuring users remain on my page.
 
-## user stories
+## User Stories
 
 - Responsive Experience
   - As a user, I expect a consistent and responsive design for easy use on various devices, prioritizing mobile devices first.
@@ -67,33 +67,33 @@
 
 ## testing
 
-- manual
+- Manual
 
-  - page is responsive (menu, images, style of each section) for tablet, laptop, and wide screens
-  - menu working, going up arrow after each section working as well
-  - all links working and opening in a new tab
-  - all images have alt text or fallback background color and aria-labels are there
-  - contrast ratio (WCAG AAA) passed
+  - Page is responsive (menu, images, style of each section) for tablet, laptop, and wide screens
+  - Menu working, going up arrow after each section working as well
+  - All links working and opening in a new tab
+  - All images have alt text or fallback background color and aria-labels are there
+  - Contrast ratio (WCAG AAA) passed
 
-- official validators
+- Official validators
 
   - CSS validator: no errors
   - HTML validator: 1st errors bc img had size attribute without sourceset atrribute --> fixed
-  - lighthouse: values for accessibility / best practise / SEO all 100, increased performance value from 74 to 99 by transforming and resizing all my images
+  - Lighthouse: values for accessibility / best practise / SEO all 100, increased performance value from 74 to 99 by transforming and resizing all my images
   - WAVE: no errors
 
-## technologies
+## Technologies
 
 HTML | CSS
 
-## project status
+## Project Status
 
-project is: finished
+Project is: finished
 
-## acknowledgements
+## Acknowledgements
 
-this project was based on full-stack course @ Code Institute
+This project was based on full-stack course @ Code Institute.
 
-- images from pexels.com and wikimedia, all commons
-- images edited with squoosh.app
+- Image of raised-bed from  wikimedia.com, all other images from pexels.com 
+- Images edited with squoosh.app
   
