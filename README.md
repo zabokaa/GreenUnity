@@ -1,6 +1,6 @@
 # :purple_circle: *GreenUnity* :purple_circle:
 
-![mockup landingpage](./img/readme-img/mockup_home.png?raw=true)
+![mockup landingpage](./assets/img/readme-img/mockup_home.png?raw=true "image of mockup home screen for different devices")
 
 ## table of contents
 
@@ -18,18 +18,42 @@ to build a responsive 1-page web app for a Community Garden
 
 ## key features
 
-- menu + responsive design 
+- Menu and Responsive Design
+  - **Responsive Design:** The webpage follows a mobile-first approach, ensuring optimal user experience across various devices.
+  - **Menu Navigation:** The page features an intuitive menu for easy navigation, allowing users to access different sections effortlessly.
 
-  - ability to navigate to all different sections
-  - 
+- Event Display
+  - **Text-Only Display for Mobile:** Events are presented in a text-only format on mobile devices --> enhance readability and user experience.
+  - **Image Display for Tablet and Laptop:** Events are showcased with pictures on tablet devices and arranged in two-per-row format for laptops. 
+
+- User Enrollment
+  - **Event Enrollment:** Users can enroll in one or more events by providing their names and email addresses.
+  - **Additional Information:** Users have the option to include additional details, such as special assistance requirements --> better communication and event coordination.
+
+- Quick Navigation
+  - **Arrows for Scroll Navigation:** Arrows below each section enable users to quickly navigate to the top of the page. 
+
+- Information Sections
+  - **Community Garden Development:** Users can find information about the development of the community garden -->  transparency and engagement.
+  - **Vision and Mission:** A dedicated section outlines the vision and mission of the community, providing users with a deeper understanding of its purpose.
+  - **Opening Hours:** Clear details about the operating hours are available for user convenience.
+  - **Monthly Events:** Users can easily access info about events scheduled for the current month, facilitating event planning and participation.
+ 
+- Footer
+  - **Comprehensive Footer:** The footer contains essential information, including the address, a brief impressum, and links to social media.
+  - **New Tab Links:** Social media links open in new tabs, ensuring users remain on my page. 
+
+
 
 ## user stories
+
+- Responsive Experience
+  - As a user, I expect a consistent and responsive design for easy use on various devices, prioritizing mobile devices first.
+
 - Event Enrollment
   - As a user, I want a simple event enrollment process. 
   - As a user, I need to enroll in multiple events efficiently, providing additional details like special assistance requirements.
 
-- Responsive Experience
-  - As a user, I expect a consistent and responsive design for easy use on various devices, prioritizing mobile devices first.
 
 - Quick Navigation
   - As a user, I need quick navigation between sections using arrow buttons for efficient browsing.
