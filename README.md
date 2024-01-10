@@ -36,6 +36,8 @@ Welcome to GreenUnity's homepage – the heart of our community garden. Discover
   - **Menu Navigation:** The page features an intuitive menu for easy navigation, allowing users to access different sections.
 
 - Hero Section (=Home)
+
+  ![home](./assets/img/readme-img/home_img.png)
   - **Text-Only Display for Mobile:** Events are presented in a text-only format on mobile devices --> enhance readability and user experience.
   - **Image Display for Tablet and Laptop:** Events are showcased with pictures on tablet devices and arranged in two-per-row format for laptops.
 
