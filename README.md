@@ -1,8 +1,10 @@
 # :purple_circle: *GreenUnity* :purple_circle:
 
+Welcome to GreenUnity's homepage – the heart of our community garden. Discover a space where nature and community intertwine, offering hands-on gardening experiences, educational opportunities, and a sense of belonging. The homepage is the gateway to a thriving community committed to sustainable living and shared knowledge. Explore the value of being a part of GreenUnity, where you can cultivate not only plants but also lasting connections and a richer understanding of the environment. 
+
 ![mockup landingpage](./assets/img/readme-img/mockup_home.png?raw=true "image of mockup home screen for different devices")
 
-🌱 Deployed page can be found [here](https://zabokaa.github.io/GreenUnity/) 🍃
+🌱 The deployed page can be found [here](https://zabokaa.github.io/GreenUnity/) 🍃
 
 ## Table of Contents
 
