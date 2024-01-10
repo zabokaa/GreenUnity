@@ -14,7 +14,10 @@
 
 ## objective
 
-to build a responsive 1-page web app for a Community Garden
+- to build a responsive 1-page web app for a Community Garden
+- low-threshold access for users without social media accounts
+
+  
 
 ## key features
 
