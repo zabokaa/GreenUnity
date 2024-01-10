@@ -2,6 +2,8 @@
 
 ![mockup landingpage](./assets/img/readme-img/mockup_home.png?raw=true "image of mockup home screen for different devices")
 
+<a href="https://zabokaa.github.io/GreenUnity/" target="_blank">🌱 **deployed page** 🍃</a>
+
 ## table of contents
 
 - [objective](#objective)
@@ -23,7 +25,7 @@
 
 - Menu and Responsive Design
   - **Responsive Design:** The webpage follows a mobile-first approach, ensuring optimal user experience across various devices.
-  - **Menu Navigation:** The page features an intuitive menu for easy navigation, allowing users to access different sections effortlessly.
+  - **Menu Navigation:** The page features an intuitive menu for easy navigation, allowing users to access different sections.
 
 - Event Display
   - **Text-Only Display for Mobile:** Events are presented in a text-only format on mobile devices --> enhance readability and user experience.
