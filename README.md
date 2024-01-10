@@ -2,7 +2,7 @@
 
 ![mockup landingpage](./assets/img/readme-img/mockup_home.png?raw=true "image of mockup home screen for different devices")
 
-## 🌱 [Deployed Page] 🍃 (<https://zabokaa.github.io/GreenUnity/>)
+🌱 Deployed page can be found [here](https://zabokaa.github.io/GreenUnity/) 🍃
 
 ## Table of Contents
 
