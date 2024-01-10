@@ -67,7 +67,7 @@ Welcome to GreenUnity's homepage – the heart of our community garden. Discover
 - Footer Information
   - As a user, I find value in the footer for critical information, including the address, a concise impressum, and social media links set to open in new tabs for a seamless experience.
 
-## testing
+## Testing
 
 - Manual
 
@@ -82,7 +82,11 @@ Welcome to GreenUnity's homepage – the heart of our community garden. Discover
   - [W3C HTML Validator](./assets/img/readme-img/html_validation.png): No errors 
   - [W3C CSS Validator](./assets/img/readme-img/CSS_validation.png):  First I had an error because my img tags in the events section had a size attribute without a srcset atrribute --> fixed: no errors 
   - [Lighthouse Chrome DevTools](./assets/img/readme-img/lighthouse_afterResizingImg.png): Values for accessibility / best practise / SEO all 100, increased performance value from 74 to 99 by transforming and resizing all my images 
-  - [WAVE](./assets/img/readme-img/wave_validation.png): No errors for accessibility and color contrast 
+  - [WAVE](./assets/img/readme-img/wave_validation.png): No errors for accessibility and color contrast
+ 
+- Unfixed Bugs
+  
+  - On mobile phones, the dropdown menu in the navigation covers the page content, preventing the user from immediately seeing the top of that specific section. To address this issue, they must close the menu. Imo, this cannot be fixed using vanilla HTML alone.
 
 ## Technologies
 
