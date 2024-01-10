@@ -11,10 +11,11 @@ Welcome to GreenUnity's homepage – the heart of our community garden. Discover
 - [Objective](#objective)
 - [Key Features](#key-features)
 - [User Stories](#user-stories)
+- [UX Design Five Planes Method](#ux-design-five-planes-method)
 - [Testing](#testing)
   - [Manual](#manual)
   - [Official Validators](#official-validators)
-  - [Fixed Bugs](#fixed-bugs)
+  - [Unfixed Bugs](#unfixed-bugs)
 - [Technologies](#technologies)
 - [Deployment](#deployment)
 - [Project Status](#project-status)
@@ -101,6 +102,26 @@ Welcome to GreenUnity's homepage – the heart of our community garden. Discover
 
 - Footer Information
   - As a user, I find value in the footer for critical information, including the address, a concise impressum, and social media links set to open in new tabs for a seamless experience.
+
+ 
+## UX Design Five Planes Method
+
+- Strategy
+  - The page is of value for new users (getting information) as well as for the members of GreenUnity (getting information too, and attracting new members)
+  - It is a way to reach out to users that are not using social media, e.g. instagram.
+- Scope
+  - The user wants to have access to different sections via menu without scrolling down. The links in the menu are self-explanatory.
+- Structure
+  - The page is structured in such a way that 1. it goes from the general to the more specific and 2. from a passive to an active integration of the user
+  - First a rough historical outline, then more specific or concrete vision and mission.
+  - The next section is events, which are even less abstract.
+  - Then the user can register for an event. 
+- Skeleton
+  - My first concept was not having a 1-page site, but different html pages for each section. But since it is more common today, and users are more used to that, I changed that.
+  - [Here](./assets/img/readme-img/Flowerbeds_wireframes_1.pdf) you can find my wireframes, designed with Balsamiq. (Pls note that I changed the name of the Community Garden from Flowerbeds to GreenUnity, because with GreenUnity both nature and community are associated.)
+- Surface
+  - 
+
 
 ## Testing
 
