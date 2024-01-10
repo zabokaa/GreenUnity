@@ -16,6 +16,7 @@ Welcome to GreenUnity's homepage – the heart of our community garden. Discover
   - [Official Validators](#official-validators)
   - [Fixed Bugs](#fixed-bugs)
 - [Technologies](#technologies)
+- [Deployment](#deployment)
 - [Project Status](#project-status)
 - [Acknowledgements](#acknowledgements)
 
@@ -123,6 +124,32 @@ Welcome to GreenUnity's homepage – the heart of our community garden. Discover
 ## Technologies
 
 HTML | CSS
+
+## Deployment
+
+- The site is deployed on Github Pages.
+
+  HOW TO: 
+
+  1. **Go to Repository Settings:**
+     In your GitHub repository, navigate to the "Settings" tab.
+  
+  2. **Scroll Down to GitHub Pages Section:**
+     In the Settings, scroll down to the "GitHub Pages" section.
+  
+  3. **Choose Your Source Branch:**
+     Under "Source," select the branch you want to use for GitHub Pages (e.g., `main`).
+  
+  4. **Save Your Changes:**
+     Save the changes. GitHub Pages will provide you with a link to your deployed site.
+  
+  5. **Wait for the Build:**
+     GitHub Pages will now build and deploy your site. Wait for the process to complete.
+  
+  6. **Access Your Deployed Site:**
+     Once the build is successful, you can access your deployed site using the provided link.
+
+  Your project is now live on GitHub Pages! 
 
 ## Project Status
 
