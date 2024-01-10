@@ -19,19 +19,15 @@ Welcome to GreenUnity's homepage – the heart of our community garden. Discover
 - [Project Status](#project-status)
 - [Acknowledgements](#acknowledgements)
 
+
 ## Objective
 
 - to build a responsive 1-page web app for a Community Garden
 - low-threshold access for users without social media accounts
 
+
 ## Key Features
 
-- Responsive Design
-  - **Responsive Design:** The webpage follows a mobile-first approach, ensuring optimal user experience across various devices.
-
-- Quick Navigation
-  - **Arrows for Scroll Navigation:** Arrows below each section enable users to quickly navigate to the top of the page.
- 
 - Header
 
   ![header](./assets/img/readme-img/header_img.png)
@@ -66,6 +62,20 @@ Welcome to GreenUnity's homepage – the heart of our community garden. Discover
   ![footer](./assets/img/readme-img/footer_desk_img.png)
   - **Comprehensive Footer:** The footer contains essential information, including the address, a brief impressum, and links to social media.
   - **New Tab Links:** Social media links open in new tabs, ensuring users remain on my page.
+
+- Responsive Design
+  - **Responsive Design:** The webpage follows a mobile-first approach, ensuring optimal user experience across various devices. All images above are for screen size tablet.
+  - **Differences for Mobile Screen:**
+    - Burger Menu for Navigation
+    - Smaller and more centric positon of hero text
+    - Content of About Us section is in one column
+    - Event-Boxes are in one column, as already mentioned without image, and with changing background color. 
+    - Content of footer is centered in one column
+    - The headings are on the left because it is clearer and analogous to the reading direction.
+
+- Quick Navigation
+  - **Arrows for Scroll Navigation:** Arrows below each section enable users to quickly navigate to the top of the page.
+ 
 
 ## User Stories
 
