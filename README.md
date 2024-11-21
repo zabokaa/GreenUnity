@@ -12,6 +12,7 @@ Welcome to GreenUnity's homepage – the heart of our community garden. Discover
 - [Key Features](#key-features)
 - [User Stories](#user-stories)
 - [UX Design Five Planes Method](#ux-design-five-planes-method)
+- [Pixel Tracking](#pixel-tracking)
 - [Testing](#testing)
   - [Manual](#manual)
   - [Official Validators](#official-validators)
@@ -125,6 +126,9 @@ Welcome to GreenUnity's homepage – the heart of our community garden. Discover
   - The primary colors are green and lavender. Green symbolizes plants and nature, and lavender has a strong connection to flowers and spring, and therefore to a transition. The text-color is a dark purple (related to lavender) and used to have a smoother contrast to white or lavender background than black.
   - I chose italic as the second font because it looks more personal and handmade. It goes well with the planting and getting involved approach of the site. 
 
+## Pixel Tracking
+- added a pixel for tracking number of site visits
+- output as [json](./assets/img/readme-img/pixeltest.png)
 
 ## Testing
 
