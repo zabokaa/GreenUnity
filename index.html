@@ -273,7 +273,38 @@
     </footer>
     <!-- fontawesome kit -->
     <script src="https://kit.fontawesome.com/d12458fc0c.js" crossorigin="anonymous"></script>
+     <!-- ad a postback -->
+    <script>
+        document.getElementById('signup-form').addEventListener('submit', function(event) {
+            event.preventDefault();
+            const firstName = document.getElementById('first_name').value;
+            const lastName = document.getElementById('last_name').value;
+            const emailAddress = document.getElementById('email_address').value;
+            const selectedEvents = Array.from(document.querySelectorAll('input[name="selected_event"]:checked')).map(el => el.value);
+            const additionalInfo = document.getElementById('add_info').value;
 
+            fetch('/postback', {
+                method: 'POST',
+                headers: {
+                    'Content-Type': 'application/json'
+                },
+                body: JSON.stringify({
+                    first_name: firstName,
+                    last_name: lastName,
+                    email_address: emailAddress,
+                    selected_events: selectedEvents,
+                    additional_info: additionalInfo
+                })
+            })
+            .then(response => response.json())
+            .then(data => {
+                alert(data.message);
+            })
+            .catch(error => {
+                console.error('Error:', error);
+            });
+        });
+    </script>
 </body>
 
 </html>
