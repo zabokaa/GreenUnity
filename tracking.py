@@ -8,7 +8,7 @@ CORS(app)
 # Mock database to track events (in-memory for testing purposes)
 mock_database = []
 
-# Counter to track the number of users
+# Counter to track the number of users and frequency
 user_counter = 0
 
 @app.route('/')
@@ -41,4 +41,3 @@ def tracking_pixel():
 
 if __name__ == '__main__':
     app.run(debug=True)
-    
