@@ -26,7 +26,7 @@ Welcome to GreenUnity's homepage – the heart of our community garden. Discover
 
 - to build a responsive 1-page web app for a Community Garden
 - low-threshold access for users without social media accounts
-- to use tracking pixel to simulate client-side tracking and a postback URL to simulate server-side tracking
+- to use tracking pixel to simulate client-side tracking
 
 
 ## Key Features
